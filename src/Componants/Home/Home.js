@@ -10,7 +10,8 @@ const Home = () => {
                         <div className="card-body">
                             <h1 className="card-title my-3">New Cheese <span classNameName='text-danger fw-bold'>BURST</span></h1>
                             <h2 className="card-title">Super Cheesy <br />Super Tasty</h2>
-                            <p className="card-text my-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. <br /> Soluta optio nulla fugiat, placeat laudantium molestias voluptas veritatis eius tenetur quidem eos ratione laboriosam ut libero.</p>
+                            <p className="card-text my-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta optio nulla fugiat, <br />  
+                            placeat laudantium molestias voluptas veritatis eius tenetur quidem eos ratione laboriosam ut libero.</p>
                             <a href="#" className="btn btn-success my-3">ORDER NOW</a>
                         </div>
                     </div>
