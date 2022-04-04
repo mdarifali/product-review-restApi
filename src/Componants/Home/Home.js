@@ -8,11 +8,11 @@ const Home = () => {
                 <div className="row g-4">
                     <div className="col-md-8">
                         <div className="card-body">
-                            <h1 className="card-title my-3">New Cheese <span classNameName='text-danger fw-bold'>BURST</span></h1>
+                            <h1 className="card-title my-3">New Cheese <span className='text-danger fw-bold'>BURST</span></h1>
                             <h2 className="card-title">Super Cheesy <br />Super Tasty</h2>
                             <p className="card-text my-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta optio nulla fugiat, <br />  
                             placeat laudantium molestias voluptas veritatis eius tenetur quidem eos ratione laboriosam ut libero.</p>
-                            <a href="#" className="btn btn-success my-3">ORDER NOW</a>
+                            <a href="/" className="btn btn-success my-3">ORDER NOW</a>
                         </div>
                     </div>
                     <div className="col-md-4">
