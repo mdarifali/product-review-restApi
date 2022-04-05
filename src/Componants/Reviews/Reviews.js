@@ -1,6 +1,7 @@
 import React from 'react';
 import useReviewData from '../hookes/useReviewData';
 import Review from '../Review/Review';
+import './Reviews.css';
 
 const Reviews = () => {
 
