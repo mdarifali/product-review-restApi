@@ -1,11 +1,12 @@
-import React from 'react';
 import HomeReview from '../HomeReview/HomeReview';
 import useReviewData from '../hookes/useReviewData';
 import Img from '../img/pizza-2.jpg'
+import { Link } from 'react-router-dom';
 
 const Home = () => {
 
-    const [reviews, setRevies] = useReviewData([]);
+    const [reviews, setRevies] = useReviewData();
+
 
     return (
         <div className='container my-5'>
@@ -25,17 +26,21 @@ const Home = () => {
                     </div>
                 </div>
 
-                <div className="row my-5">
-
+                <div className="row g-4 my-5">
+                    <h2 className='text-center mb-4'> Our Customer Reviews</h2> <hr />
                     {
-                        reviews.map(pd => <HomeReview 
+                        reviews.slice(0, 3).map(pd => <HomeReview
 
                             key = {pd.id}
                             data = {pd}
 
                         />)
                     }
-
+                    <div className='nav-item text-center'>
+                    <button className='btn btn-info'>
+                        <Link className='nav-link text-dark' to='/reviews'>Sell All Reviews</Link>
+                        </button>
+                    </div>
                 </div>
             </div>
         </div>

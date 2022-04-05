@@ -4,7 +4,7 @@ const HomeReview = ({ data }) => {
     const { name, img, ratings, comments } = data;
 
     return (
-        <div className="col-md-4">
+        <div className="col-md-4 my-4">
             <div className="card shadow-lg">
                 <div className="card-body h-100">
                     <div className="text-center">
