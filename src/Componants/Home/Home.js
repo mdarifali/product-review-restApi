@@ -39,7 +39,7 @@ const Home = () => {
                 </div>
 
                 <div className="row g-4 my-5">
-                    <h2 className='fw-bold text-center mb-4'> Our Customer Reviews</h2> <hr />
+                    <h2 className='fw-bold text-center mb-3'> Our Customer Reviews</h2> <hr />
                     {
                         reviews.slice(0, 3).map(pd => <HomeReview
 
