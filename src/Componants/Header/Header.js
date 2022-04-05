@@ -1,12 +1,16 @@
 import React from 'react';
 import { Link } from "react-router-dom";
+import Logo from '../img/logo.png';
+import './Header.css';
 
 const Header = () => {
 
     return (
-        <nav className="navbar navbar-expand-lg navbar-light bg-light">
+        <nav id='nav-bar' className="navbar navbar-expand-lg navbar-light p-2">
             <div className="container">
-                <a className="navbar-brand" href="/home">Navbar</a>
+                <a className="navbar-brand" href="/home">
+                    <img id='logo' src={Logo} alt="" /> PizzaHant
+                </a>
                 <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                     <span className="navbar-toggler-icon"></span>
                 </button>
@@ -22,7 +26,7 @@ const Header = () => {
                             <Link className='nav-link' to='/dashborad'>Dashborad</Link>
                         </div>
                         <div className='nav-item'>
-                            <Link className='nav-link' to='/home'>About</Link>
+                            <Link className='nav-link' to='/blogs'>Blogs</Link>
                         </div>
                     </ul>
                 </div>

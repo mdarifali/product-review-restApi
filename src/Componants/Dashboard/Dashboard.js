@@ -58,6 +58,7 @@ const Dashboard = () => {
                         <Bar dataKey="revenue" fill="#82ca9d" />
                     </BarChart>
                 </div>
+                
                 <div className="col-md-6">
                     <RadarChart width={500} height={250} outerRadius={90} data={data}>
                         <PolarGrid />
@@ -70,17 +71,10 @@ const Dashboard = () => {
                     </RadarChart>
                 </div>
             </div>
+            
             <div className="row mt-5">
                 <div className="col-md-6 ">
-                    <PieChart width={500} height={250}>
-                        <Pie data={data} dataKey="investment" nameKey="month" cx="50%" cy="50%" outerRadius={50} fill="#CE49BF" />
-                        <Pie data={data} dataKey="sell" nameKey="month" cx="50%" cy="50%" innerRadius={60} outerRadius={80} fill="#6FB2D2" label />
-                        <Pie data={data} dataKey="revenue" nameKey="month" cx="50%" cy="50%" innerRadius={60} outerRadius={80} fill="#82ca9d" label />
-                        <Tooltip />
-                    </PieChart>
-                </div>
-                <div className="col-md-6">
-                    <ComposedChart width={500} height={250} data={data}>
+                <ComposedChart width={500} height={250} data={data}>
                         <XAxis dataKey="month" />
                         <YAxis />
                         <Tooltip />
@@ -90,6 +84,15 @@ const Dashboard = () => {
                         <Bar dataKey="sell" barSize={20} fill="#413ea0" />
                         <Line type="monotone" dataKey="revenue" stroke="#ff7300" />
                     </ComposedChart>
+                </div>
+
+                <div className="col-md-6">
+                    <PieChart width={500} height={250}>
+                        <Pie data={data} dataKey="investment" nameKey="month" cx="50%" cy="50%" outerRadius={50} fill="#CE49BF" />
+                        <Pie data={data} dataKey="sell" nameKey="month" cx="50%" cy="50%" innerRadius={60} outerRadius={80} fill="#6FB2D2" label />
+                        <Pie data={data} dataKey="revenue" nameKey="month" cx="50%" cy="50%" innerRadius={60} outerRadius={80} fill="#82ca9d" label />
+                        <Tooltip />
+                    </PieChart>
                 </div>
             </div>
         </div>
