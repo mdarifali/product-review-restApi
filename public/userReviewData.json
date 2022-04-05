@@ -1,0 +1,44 @@
+[
+    {
+        "id": 1,
+        "name": "MartinQ",
+        "img": "https://www.pngplay.com/wp-content/uploads/12/User-Avatar-Profile-Download-Free-PNG.png",
+        "ratings": "https://www.pngplay.com/wp-content/uploads/6/5-Star-Rating-Vector-Transparent-PNG.png",
+        "comments": "his was good - albeit a little sweet. The thing I wish I had known was how many raw red onions were on this pizza. I thought they would be a little cooked. They were not - and they did not cook much during the baking process. "
+    },
+    {
+        "id": 2,
+        "name": "Katie",
+        "img": "https://www.pngplay.com/wp-content/uploads/12/User-Avatar-Profile-Download-Free-PNG.png",
+        "ratings": "https://www.pngplay.com/wp-content/uploads/6/5-Star-Rating-Vector-Transparent-PNG.png",
+        "comments": "My family loves this pizza. And you can't beat it for the price! We keep a couple in our freezer for busy nights. It's a healthier, cheaper alternative to takeout and I like that the chicken adds a little protein. And it's delicious!! Highly recommend."
+    },
+    {
+        "id": 3,
+        "name": "Chris",
+        "img": "https://www.pngplay.com/wp-content/uploads/12/User-Avatar-Profile-Download-Free-PNG.png",
+        "ratings": "https://www.pngplay.com/wp-content/uploads/6/5-Star-Rating-Vector-Transparent-PNG.png",
+        "comments": "Flavor is good - crust is not crispy as described. But OK otherwsie - if you don't mind just 5 bits of chicken pieces scattered on the top. ONLY 5!"
+    },
+    {
+        "id": 4,
+        "name": "AngelLee",
+        "img": "https://www.pngplay.com/wp-content/uploads/12/User-Avatar-Profile-Download-Free-PNG.png",
+        "ratings": "https://www.pngplay.com/wp-content/uploads/6/5-Star-Rating-Vector-Transparent-PNG.png",
+        "comments": "I cannot believe this pizza is so cheap yet it tastes very close to California Kitchen pizza which is more than twice the money. Go figure! So this is a no-brainer, I'll choose the 365 brand every time, it's yummy, inexpensive and my guys love it."
+    },
+    {
+        "id": 5,
+        "name": "Miss Dee",
+        "img": "https://www.pngplay.com/wp-content/uploads/12/User-Avatar-Profile-Download-Free-PNG.png",
+        "ratings": "https://www.pngplay.com/wp-content/uploads/6/5-Star-Rating-Vector-Transparent-PNG.png",
+        "comments": "Way better than I thought it would be. Sauce is a sweet BBQ. I added some shredded mild cheddar and left over sautéed mushrooms. Cooking time was great at 16 min from thawed. Put on a cookie cooling rack before putting in oven to get in and out easily by using a potholder to grab the cooling rack with pizza on it"
+    },
+    {
+        "id": 6,
+        "name": "Mary",
+        "img": "https://www.pngplay.com/wp-content/uploads/12/User-Avatar-Profile-Download-Free-PNG.png",
+        "ratings": "https://www.pngplay.com/wp-content/uploads/6/5-Star-Rating-Vector-Transparent-PNG.png",
+        "comments": "I always stick up when I see this in store because the flavor is that good ! I haven't seen them in a while so I hope they are not discontinued :( these are some of the best frozen barbecue pizza I've ever tasted ! Definitely recommend giving them a try. I will say they are a little small and thin . I can easy eat one on my own"
+    }
+]

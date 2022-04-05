@@ -45,8 +45,8 @@ const Dashboard = () => {
     ];
     return (
         <div className='container my-5'>
-            <div className="row g-5">
-                <div className="col-md-6 chart-size">
+            <div className="row">
+                <div className="col-md-6 ">
                     <BarChart width={500} height={250} data={data}>
                         <CartesianGrid strokeDasharray="3 3" />
                         <XAxis dataKey="month" />
@@ -58,7 +58,7 @@ const Dashboard = () => {
                         <Bar dataKey="revenue" fill="#82ca9d" />
                     </BarChart>
                 </div>
-                <div className="col-md-6 chart-size">
+                <div className="col-md-6">
                     <RadarChart  width={500} height={250} outerRadius={90} data={data}>
                         <PolarGrid />
                         <PolarAngleAxis dataKey="month" />
@@ -70,8 +70,8 @@ const Dashboard = () => {
                     </RadarChart>
                 </div>
             </div>
-            <div className="row">
-                <div className="col-md-6 chart-size">
+            <div className="row mt-5">
+                <div className="col-md-6 ">
                     <BarChart width={500} height={250} data={data}>
                         <CartesianGrid strokeDasharray="3 3" />
                         <XAxis dataKey="month" />
@@ -83,7 +83,7 @@ const Dashboard = () => {
                         <Bar dataKey="revenue" fill="#82ca9d" />
                     </BarChart>
                 </div>
-                <div className="col-md-6 chart-size">
+                <div className="col-md-6">
                     <RadarChart  width={500} height={250} outerRadius={90} data={data}>
                         <PolarGrid />
                         <PolarAngleAxis dataKey="month" />
