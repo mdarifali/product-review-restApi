@@ -7,7 +7,7 @@ import { Link } from 'react-router-dom';
 
 const Home = () => {
 
-    const [reviews, setRevies] = useReviewData();
+    const [reviews] = useReviewData();
 
 
     return (
